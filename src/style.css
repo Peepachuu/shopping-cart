@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Lato, 'sans-sarif';
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    padding: 8px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: green;
+}
+
+nav ul {
+    font-size: 1.5rem;
+    display: flex;
+    gap: 2rem;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+a {
+    color: white;
+}
+
+a:visited {
+    text-decoration: none;
+}
